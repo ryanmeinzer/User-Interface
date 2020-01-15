@@ -49,7 +49,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid gray;
 }
 
 html, body {
@@ -72,19 +71,20 @@ h1, h2, h3, h4, h5 {
 
 a {
 	color: gray;
-	content: 5px;
 	display: inline-block;
 	width: 13%;
+	margin: 0px auto 10px;
 }
 
 .nav-image {
 	display: inline-block;
 	width: 20%;
+	margin: 10px auto 0px;
 }
 
 .nav-container {
 	width: 90%;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 }
 
 .left-header {
@@ -121,6 +121,11 @@ button{
 	margin: 0 auto;
 }
 
+.line-break{
+	width: 90%;
+	margin: 30px auto;
+}
+
 .Features{
 	display: inline-block;
 	width: 45%;
@@ -133,12 +138,12 @@ button{
 
 .top{
 	width: 90%;
-	margin: 0 auto;
+	margin: 0 auto 30px;
 }
 
 .middle-img-container{
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 30px;
 }
 
 .Services{
@@ -158,7 +163,17 @@ button{
 
 .bottom{
 	width: 90%;
-	margin: 0 auto;
+	margin: 0 auto 30px;
+}
+
+.line-break2{
+	width: 90%;
+	margin: 30px auto;
+}
+
+.contact{
+	width: 90%;
+	margin: 0 auto 30px;
 }
 
 footer{
